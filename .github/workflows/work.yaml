@@ -9,8 +9,6 @@ on:
             - master
     schedule:
         - cron: '5 16 * * *'
-    watch:
-        - types: started
 
     workflow_dispatch:
 jobs:
